@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+section{
+    background:rgba(204, 174, 98,1.0);
+    min-height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    min-width: 400px;
+    max-width: 500px;
+    overflow: hidden;
+    
+}
+
+.display{
+    font-family: 'Orbitron', sans-serif;
+    text-align: right;
+    padding: 10px;
+    height:125px;
+    width:100%;
+    background-color: rgba(106, 176, 76,1.0);
+    overflow: hidden;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+.display-1{
+    font-size: 25px;
+    opacity: .5;
+}
+.display-2{
+    font-size: 40px;
+}
+.display-temp{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    opacity: .5;
+}
+
+.all-buttons{
+    color: rgba(247, 241, 227,1.0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    background-color: rgba(75, 101, 132,1.0);
+    border: 4px solid black;
+    border-radius: 5px;
+    display: grid;
+    grid-template: repeat(4, 1fr)/ repeat(4, 1fr);
+}
+
+.button{
+    border: .25px solid rgba(132, 129, 122,1.0);
+    display:inline-block;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(119, 140, 163,1.0);
+}
+.clear{
+    grid-column: span 2;
+    background-color: rgba(205, 97, 51,1.0);
+}
+.clear:hover{
+    background-color: rgba(255, 121, 63,1.0);
+}
+.btn-0{
+    grid-column: span 2;
+}
+
+.equal{
+    background-color: rgba(205, 97, 51,1.0);
+}
+
+.equal:hover{
+    background-color: rgba(255, 121, 63,1.0);
+}
